@@ -34,7 +34,7 @@ class VendingMachine(
     }
 
     fun incrementItemCount(count: Int) {
-        System.out.printf("Adding %d items\n", count)
+        println("Adding $count items")
         itemCount += count
     }
 

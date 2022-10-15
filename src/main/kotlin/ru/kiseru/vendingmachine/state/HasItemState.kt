@@ -7,7 +7,7 @@ class HasItemState(
 ) : State {
 
     override fun addItem(count: Int) {
-        System.out.printf("%d items added\n", count)
+        println("$count items added")
         vendingMachine.incrementItemCount(count)
     }
 
